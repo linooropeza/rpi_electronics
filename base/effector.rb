@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-# require 'rpi_gpio'
+require 'rpi_gpio'
 
-# RPi::GPIO.set_warnings(false)
-# RPi::GPIO.set_numbering :bcm
+RPi::GPIO.set_warnings(false)
+RPi::GPIO.set_numbering :bcm
 
 # Effector: Electronic device that performs some task
 class Effector
