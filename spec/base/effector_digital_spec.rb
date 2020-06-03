@@ -3,7 +3,7 @@
 require_relative '../../base/effector_digital'
 
 describe EffectorDigital, 'initialization' do
-  let(:pins) { { r: 6, g: 13, b: 19 } }
+  subject(:pins) { { r: 6, g: 13, b: 19 } }
 
   it 'initializes the pins and sets them low' do
     effector = EffectorDigital.new pins, :low
