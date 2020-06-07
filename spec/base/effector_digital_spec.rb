@@ -2,7 +2,7 @@
 
 require_relative '../../base/effector_digital'
 
-describe EffectorDigital do
+RSpec.describe EffectorDigital do
   describe 'when first created' do
     subject(:pins) { { r: 6, g: 13, b: 19 } }
 

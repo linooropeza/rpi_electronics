@@ -2,7 +2,7 @@
 
 require_relative '../../base/effector_binary'
 
-describe EffectorBinary do
+RSpec.describe EffectorBinary do
   describe 'when just created' do
     subject(:pin) { 6 }
 

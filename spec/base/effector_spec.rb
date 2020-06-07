@@ -2,7 +2,7 @@
 
 require_relative '../../base/effector'
 
-describe Effector do
+RSpec.describe Effector do
   subject { Effector.new }
 
   it 'should have a name' do
